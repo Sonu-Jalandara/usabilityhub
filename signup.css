@@ -1,0 +1,58 @@
+.login-section {
+    height: 100%;
+}
+
+.login_box {
+    height: 443px;
+}
+
+.span {
+    border: transparent solid 1px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    position:relative;
+    top: -24px;
+    left: 207px;
+}
+
+.span:hover {
+    background: var(--primary-bg);
+}
+
+.width-220{
+    width: 220px;
+}
+
+.link-card {
+    margin: 10px auto;
+}
+
+.link {
+    text-align: center;
+}
+
+.company-section {
+    width: 410px;
+    height: 623px;
+    background: var(--secondary-bg);
+    margin: 20px auto;
+    padding: 25px 0px;
+}
+
+.text-align {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 136px;
+    height: 135px;
+}
