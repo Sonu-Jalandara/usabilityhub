@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="signUpmediaquery.css">
+   
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <img src="images/asset 1.png" alt="company-logo">
+            <span class="span"><a href="signin.html">Sign in</a></span>
+        </div>
+    </nav>
+    <div class="login-section">
+        <div class="login-card">
+        <h1>Sign up to UsabilityHub</h1>
+        <div class="login_box br-7">
+           <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+            <div class="name block margin" id="name" >
+                <label for="name " class="block my-3">Full name</label>
+                <input type="text" class="input txt br-7" name="user_name"placeholder="Your name" required>
+                <span class="formerror warning"></span>
+            </div>
+            <div class="email block margin" id="email" >
+                <label for="email " class="block my-3">Email address</label>
+                <input type="email" class="input txt br-7 " name="user_email" placeholder="Your email" required>
+                <span class="formerror warning"></span>
+            </div>
+            <div class="password block margin" id="password">
+                <label for="password" class="block my-3">Password</label>
+                <input type="password" class="input txt br-7"  name="user_password" placeholder="Your password" required>
+                <span class="formerror warning"></span>
+            </div>
+            <button class="btn  input br-7" id="submit">Create account</button>
+        </form> 
+            <p><span class="intersector">OR</span></p>
+            <button class="btn_accounts br-7"><a href="https://accounts.google.com"><img
+                        src="https://www.drupal.org/files/issues/2020-01-26/google_logo.png" alt=""></a></button>
+        </div>
+        <div class="link-card width-220">
+            <div class="link width-220"><a href="signin.html" class="link-signUp">I already have an account</a></div>
+            <div class="link width-220"><a href="#" class="link-signUp">I want to become a tester</a></div>
+
+        </div>
+    </div>
+        <div class="company-section">
+            <h1 class="text-align">Join over 100,000 designers, marketers, researchers, and UX professionals.</h1>
+            <div class="logos flex flex-wrap">
+                <img src="images/Asset (5).png" class="logo" alt="">
+                <img src="images/Asset (6).png" class="logo" alt="">
+                <img src="images/Asset (7).png" class="logo" alt="">
+                <img src="images/Asset (8).png" class="logo" alt="">
+                <img src="images/Asset (9).png" class="logo" alt="">
+                <img src="images/Asset (10).png" class="logo" alt="">
+                <img src="images/Asset (11).png" class="logo" alt="">
+                <img src="images/Asset (12).png" class="logo" alt="">
+                <img src="images/Asset (1).png" class="logo" alt="">
+                <img src="images/Asset (2).png" class="logo" alt="">
+                <img src="images/Asset (3).png" class="logo" alt="">
+                <img src="images/Asset (4).png" class="logo" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="signUp.js"></script>
+</body>
+
+</html>
