@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --primary-bg: rgb(241, 241, 241);
+    --secondary-bg: rgb(255, 255, 255);
+  }
+
+  body {
+    font-family: 'Poppins', 'sans-serif';
+    color: var(--primary-text-color);
+
+  }
+
+  a:link {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--accent-color-dark) !important;
+  }
+
+  a:visited {
+    color: var(--accent-color);
+  }
+
+  .block {
+    display: block;
+  }
+  .warning{
+    color: red;
+  }
+
+  .margin {
+    margin: 15px 31px;
+  }
+
+  .my-3 {
+    margin: 3px 0px;
+  }
+
+  .txt {
+    padding-inline-start: 8px;
+    font-size: 1rem;
+    outline-color: #2294ed;
+  }
+
+  .br-7 {
+    border-radius: 7px;
+    border-style: solid;
+    border-image: initial;
+    border-width: 1px;
+    border-color: rgb(223, 219, 219);
+  }
+
+  .login-section {
+    width: 450px;
+    height: 567px;
+    margin: 0px auto;
+  }
+
+  .navbar {
+    height: 50px;
+    background: var(--secondary-bg);
+  }
+
+  .navbar img {
+    height: 24px;
+    margin: 18px;
+    margin-left: 22px;
+
+  }
+
+  h1 {
+    margin: 6px 19px;
+    font-size: 2rem;
+    color: var(--secondary-text-color);
+    font-family: 'Roboto', 'sans-serif';
+  }
+
+  .login-section {
+    background: var(--primary-bg);
+  }
+
+  .login_box {
+    width: 410px;
+    height: 418px;
+    background: var(--secondary-bg);
+    margin: 0px auto;
+    padding-bottom: 69px;
+  }
+
+  .input {
+    width: 340px;
+    height: 37px;
+  }
+
+  .forgot-password {
+    margin-left: 49px;
+  }
+
+  .btn {
+    margin: 30px 35px;
+    background: rgb(68, 68, 255);
+    color: var(--secondary-bg);
+    border: transparent solid 1px;
+    font-size: 1rem;
+  }
+
+  .btn:hover {
+    background: rgb(24, 24, 255);
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(124, 124, 124);
+    line-height: 0em;
+    margin: 0px 0px;
+  }
+
+  p span {
+    font-size: 0.7rem;
+    background: #fff;
+    padding: 0 8px;
+  }
+
+  .btn_accounts {
+    width: 242px;
+    height: 45px;
+    margin: 31px 84px;
+    border: transparent solid 1px;
+    border-color: inherit;
+  }
+
+  .btn_accounts img {
+    width: 230px;
+    height: 43px;
+  }
+
+  .btn_accounts:hover {
+    background: var();
+  }
+
+  .link-card {
+    margin: 10px auto;
+    width: 270px;
+    text-align: center;
+    }
+
+  .link-signUp {
+    padding-left: 5px;
+  }
+
