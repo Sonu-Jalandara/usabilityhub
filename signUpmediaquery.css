@@ -1,0 +1,158 @@
+@media screen and (min-width:459px) {
+    .login-section {
+        padding-bottom: 20px;
+        width: 767px;
+        height: 100%;
+    }
+
+    .span {
+        margin: 9px 0px;
+        margin-inline-start: 19rem;
+    }
+
+    h1 {
+        margin: 10px 125px;
+    }
+
+    .login_box {
+        width: 514px;
+        padding-bottom: 53px ;
+    }
+
+    .input {
+        width: 443px;
+    }
+
+    .btn_accounts {
+        margin: 31px 136px;
+    }
+
+    .company-section {
+        width: 514px;
+        height: 676px;
+    }
+
+    .text-align {
+        margin: 10px 60px;
+    }
+
+    .logo {
+        width: 161px;
+        height: 154px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .login-section {
+        width: 991px;
+    }
+
+    .span {
+        margin-inline-start: 33rem;
+    }
+
+    h1 {
+        margin: 10px 238px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .navbar img {
+        margin: 13px;
+        margin-left: 36px;
+    }
+
+    .span {
+        top: -21px;
+        margin-inline-start: 35.5rem;
+    }
+
+    .login-section {
+        display: flex;
+        width: 1100px;
+    }
+
+    h1 {
+        margin: 10px 37px;
+    }
+
+    .login-card {
+        width: 479px;
+    }
+
+    .login_box {
+        margin-left: 37px;
+        width: 442px;
+        height: 501px;
+    }
+
+    .margin {
+        margin: 20px 20px;
+    }
+
+    .input {
+        width: 391px;
+    }
+
+    .btn {
+        margin: 46px 25px;
+    }
+
+    .btn_accounts {
+        margin: 31px 100px;
+    }
+
+    .link-card {
+        width: 184px;
+    }
+
+    .company-section {
+        width: 612px;
+        height: 492px;
+        background: var(--primary-bg);
+        margin: 20px auto;
+    }
+
+    .text-align {
+        margin: 10px 64px;
+    }
+
+    .logos {
+        margin: 0px auto;
+    }
+
+    .logo {
+        width: 137px;
+        height: 152px;
+    }
+
+    @media screen and (min-width:1101px) {
+        .login-section {
+            width: 100%;
+        }
+        .margin{
+            margin: 20px 59px;
+        }
+        .login-card{
+            width: 555px;
+        }
+        .login_box{
+            width: 518px;
+            padding-top: 20px;
+        }
+
+        .span {
+            margin-inline-start: 40.5rem;
+        }
+        .btn{
+            margin: 46px 63px;
+        }
+        .btn_accounts {
+            margin: 31px 138px;
+        }
+
+        .logo {
+            width: 136px;
+        }
+}
+}
