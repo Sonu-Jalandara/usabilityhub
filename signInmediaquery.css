@@ -1,0 +1,86 @@
+@media screen and (min-width:459px) {
+    .login-section {
+        padding-top: 50px;
+    }
+
+    .forgot-password {
+        margin-left: 239px;
+    }
+
+    h1 {
+        margin: 10px 64px;
+    }
+
+    .margin {
+        margin: 15px 51px;
+    }
+
+    .login_box {
+        width: 643px;
+        padding-top: 30px;
+    }
+
+    .input {
+        width: 529px;
+    }
+
+    .btn {
+        margin: 30px 57px;
+    }
+
+    .btn_accounts {
+        margin: 31px 201px;
+    }
+
+    .link-card {
+        width: 342px;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    h1 {
+        margin: 10px 177px;
+    }
+
+    .link-card {
+        width: 342px;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .login-section {
+        display: block;
+    }
+
+    h1 {
+        margin: 10px 229px;
+    }
+
+    .login_box {
+        margin: 0px auto;
+        height: 100%;
+    }
+
+    .link-card {
+        width: 259px;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width:1101px) {
+    .login-section {
+        display: block;
+        width: 100%;
+    }
+
+    h1 {
+        margin: 10px 345px !important;
+    }
+
+    .link-card {
+        width: 258px;
+        margin: 10px auto;
+    }
+}
